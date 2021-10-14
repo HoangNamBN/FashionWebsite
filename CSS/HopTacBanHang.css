@@ -1,0 +1,631 @@
+li {
+    list-style: none;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.head{
+    position: fixed;
+    width: 100%;
+}
+.PartOne {
+    background-color: #90d1cd;
+    height: 35px;
+    width: 100%;
+    display: flex;
+}
+.PartOne div.PartOne_left{
+    margin-top: 7px;
+}
+.PartOne div.PartOne_left a {
+    margin-left: 70px;
+    color: #000000;
+    font-size: 11px;
+    font-weight: bold;
+    vertical-align: middle;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.PartOne div.PartOne_Right{
+    margin-top: 7px;
+}
+
+.PartOne div.PartOne_Right a {
+    margin-left: 300px;
+    color: #17324f;
+    font-size: 13px;
+    vertical-align: middle;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.PartTwo {
+    background-color: #ffffff;
+    height: 60px;
+    width: 100%;
+    display: flex;
+}
+i.fa.fa-star {
+    color: red;
+}
+i.fa.fa-user {
+    color: blue;
+}
+.icon {
+    display: flex;
+    margin-top: 15px;
+}
+
+
+.PartTwo div.PartTwo_left {
+    display: flex;
+}
+
+.PartTwo div.PartTwo_left a img {
+    margin-left: 65px;
+    margin-top: 20px;
+    height: 35px;
+}
+
+.PartTwo div.PartTwo_right ul {
+    display: flex;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+
+.PartTwo div.PartTwo_right ul li {
+    margin-left: 25px;
+}
+
+.PartTwo div.PartTwo_right ul li div.search {
+    width: 145px;
+    height: 25px;
+    position: relative;
+}
+
+.PartTwo div.PartTwo_right ul li div.search input {
+    width: 235px;
+    height: 25px;
+    background-color: #ececea;
+    border: 1px solid black;
+    font-size: 12px;
+    color: black;
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.PartTwo div.PartTwo_right ul li div.search span {
+    background-color: white;
+    position: absolute;
+    top: 5px;
+    left: 132px;
+    margin-left: 100px;
+    width: 0px;
+}
+
+.PartTwo div.PartTwo_right ul li a.icon1 {
+    margin-left: 100px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.PartTwo div.PartTwo_right ul li a.icon2 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+
+.PartThere {
+    background-color: #000000;
+    width: 100%;
+    display: flex;
+    height: 45px;
+}
+
+.PartThere ul.leve2 {
+    margin-left: 40px;
+}
+.PartThere ul.leve2 li{
+    position: absolute;
+}
+.PartThere ul.leve2 li a.red {
+    line-height: 50px;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    margin-left: 20px;
+    
+}
+
+.PartThere ul.leve2 li a.red:hover {
+    color: black;
+    background-color: white;
+    padding: 16px 16px;
+    transition: all 0.25s;
+}
+
+.PartThere ul.leve2 {
+    display: flex;
+    margin-top: -2px;
+}
+
+.PartThere ul.leve2 li a.red1 {
+    margin-left: 30px;
+    line-height: 48px;
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    padding: 16px;
+}
+
+.PartThere ul.leve2 li:hover a.red1 {
+    color: black;
+    background-color: white;
+}
+
+.PartThere ul.leve2 li {
+    position: relative;
+}
+
+.PartThere ul.leve2 li ul {
+    display: none;
+    position: absolute;
+    top: 47.5px;
+    width: 180px;
+    list-style: none;
+    z-index: 100;
+    background-color: #fce8ea;
+    margin-left: 20px;
+}
+
+.PartThere ul.leve2 li ul.menu_red {
+    display: none;
+    position: absolute;
+    top: 47.5px;
+    width: 180px;
+    list-style: none;
+    z-index: 100;
+    background-color: #fce8ea;
+    margin-left: 40px;
+    left: -10px;
+}
+
+.PartThere ul.leve2>li:hover ul {
+    display: inherit;
+}
+
+.PartThere ul.leve2 li ul li a {
+    padding: 10px 10px;
+    display: inline-block;
+    width: 200px;
+    border-bottom: 1px solid black;
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    margin-left: -40px;
+}
+
+.PartThere ul.leve2 li ul li:hover a {
+    color: white;
+    background-color: #fe9f8d;
+}
+
+.PartThere ul.leve2 li ul li ul li {
+    left: -20px;
+}
+
+.PartThere ul.leve2 li ul li ul.Menu3cap2 li {
+    display: none;
+}
+
+.PartThere ul.leve2 li ul li ul.Menu3cap1 {
+    width: 150px;
+}
+
+.PartThere ul.leve2 li ul li ul.Menu3cap1 li {
+    display: none;
+}
+
+
+ul.leve2 li ul>li:hover ul.Menu3cap2 li {
+    display: inherit;
+}
+
+.PartThere ul.leve2 li ul li ul.Menu3cap2 {
+    width: 150px;
+}
+ul.leve2 li ul>li:hover ul.Menu3cap1 li {
+    display: inherit;
+}
+
+.PartThere ul.leve2 li ul li ul {
+    position: absolute;
+    left: 180px;
+    top: 0px;
+}
+
+.PartThere ul.leve2 li ul li ul.Menu3cap1 li a {
+    background-color: #fce8ea;
+    color: black;
+}
+
+.PartThere ul.leve2 li ul li ul.Menu3cap2 li a {
+    background-color: #fce8ea;
+    color: black;
+}
+
+.PartThere ul.leve2 li ul li ul.Menu3cap1 li:hover a {
+    color: white;
+    background-color: #fe9f8d;
+}
+
+.PartThere ul.leve2 li ul li ul.Menu3cap2 li:hover a {
+    color: white;
+    background-color: #fe9f8d;
+}
+
+i.fa.fa-search {
+    margin-top: -15px;
+}
+
+
+.PartFor img {
+    height: 400px;
+    width: 85%;
+    margin-left: 96px;
+    margin-top: 20px;
+    padding-top: 150px;
+}
+
+.PartFive {
+    width: 85%;
+    margin-left: 96px;
+    margin-top: 40px;
+
+}
+
+.PartFive p {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 20px;
+    font-family: inherit;
+    font-weight: inherit;
+}
+
+.PartFiveDuoi{
+    display: flex;
+    margin-top: 30px;
+    width: 85%;
+    margin-left: 96px;
+    height: 250px;
+}
+
+.PartFiveDuoi a img{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.PartFive1{
+    width: 25%;
+}
+
+
+.PartFive2{
+    width: 25%;
+}
+.PartFive3{
+    width: 25%;
+}
+.PartFile4{
+    width: 25%;
+}
+
+
+.PartSix p {
+    text-align: center;
+    font-size: 20px;
+    font-family: inherit;
+    font-weight: inherit;
+    margin-top: 50px;
+}
+
+
+.PartSenven {
+    height: 250px;
+    width: 85%;
+    margin-left: 96px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.Phan1 {
+    width: 275px;
+}
+
+.PartSenven img {
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+.Phan2 {
+    margin-left: 15px;
+    width: 275px;
+}
+
+.PartEight {
+    height: 550px;
+    width: 79%;
+    margin-left: 94px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.EightLeft {
+    background-color: #e2ddda;
+    width: 63%;
+    display: flex;
+}
+
+div.EightLeft div.Trai1 {
+    height: 430px;
+    width: 40%;
+    margin-top: 30px;
+}
+
+div.EightLeft div.Trai1 p {
+    margin-left: 90px;
+    margin-top: 38px;
+    font-weight: bold;
+}
+
+div.EightLeft div.trai2 p {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: -15px;
+}
+
+.input1 {
+    margin-top: -30px;
+    width: 300px;
+    margin-left: 50px;
+    height: 30px;
+}
+
+.trai2 select {
+    width: 310px;
+    margin-left: 50px;
+    margin-top: 20px;
+    height: 35px;
+}
+
+.trai2 input.input2 {
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 20px;
+    height: 30px;
+}
+
+.EightLeft .trai2 {
+    background-color: #e2ddda;
+    width: 60%;
+    margin-top: 30px;
+}
+
+.trai2 .button1 {
+    margin-left: 145px;
+    margin-top: 15px;
+}
+
+.EightRight {
+    width: 35%;
+}
+
+.EightRight img {
+    height: 550px;
+}
+
+.end01 {
+    background-color: gainsboro;
+    display: flex;
+    height: 250px;
+    margin-top: 35px;
+}
+
+.end01_one {
+    width: 25%;
+}
+
+.PartChung ul {
+    display: flex;
+    margin-left: -15px;
+    margin-top: 15px;
+}
+.PartChung ul li {
+    margin-top: 10px;
+}
+.PartChung ul li hr {
+    width: 250px;
+}
+
+.end01_two {
+    width: 25%;
+}
+
+.end01_three {
+    width: 25%;
+}
+
+.end01_for {
+    width: 25%;
+}
+i.fa.fa-cc-visa {
+    color: red;
+}
+
+i.fa.fa-plane {
+    color: #4267b2;
+}
+
+i.fa.fa-clock-o {
+    color: sandybrown;
+}
+
+i.fa.fa-headphones {
+    color: brown;
+}
+.end02 {
+    height: 250px;
+    display: flex;
+}
+
+.Left1 {
+    background-color: #f2f2f2;
+    width: 30%;
+}
+
+.Left1 ul {
+    margin-right: 10px;
+}
+
+.Left1 ul li h4 {
+    margin-top: 35px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.Left1 ul li{
+    margin-top: 10px;
+}
+
+.Left1 ul li a {
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.Left1 ul li a:hover {
+    background-color: black;
+    color: white;
+}
+
+.Left2 {
+    background-color: #f2f2f2;
+    width: 35%;
+}
+
+.Left2 ul {
+    margin-right: 10px;
+}
+.Left2 ul li{
+    margin-top: 10px;
+}
+.Left2 ul li h4 {
+    margin-top: 35px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.Left2 ul li a {
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+.Left2 ul li a:hover {
+    background-color: black;
+    color: white;
+}
+
+.Right {
+    background-color: #f2f2f2;
+    width: 40%;
+}
+
+.Right h4 {
+    margin-top: 35px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.fa.fa-comments-o {
+    font-size: 40px;
+    margin-left: 150px;
+    color: #4397f5;
+}
+
+
+.Right h5 {
+    font-size: 13px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Right img {
+    height: 35px;
+    width: 100px;
+    margin-top: 20px;
+}
+
+i.fa.fa-facebook {
+    font-size: 21px;
+    background: white;
+    width: 20px;
+    text-align: center;
+    color: #4397f5;
+    margin-right: 50px;
+}
+
+i.fa.fa-youtube {
+    font-size: 21px;
+    background: white;
+    width: 20px;
+    text-align: center;
+    color: red;
+    margin-right: 50px;
+}
+
+i.fa.fa-twitter {
+    font-size: 21px;
+    background: white;
+    width: 20px;
+    text-align: center;
+    color: #4397f5;
+}
+
+.Email {
+    display: flex;
+}
+
+.Email input {
+    width: 290px;
+    margin-top: 5px;
+    height: 28px;
+}
+
+.button1 {
+    width: 130px;
+    margin-top: 5px;
+    height: 34px;
+    font-size: 13px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+
+.button1:hover {
+    background-color: red;
+    border: 1px solid red;
+}

@@ -1,0 +1,661 @@
+li {
+    list-style: none;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.head{
+    position: fixed;
+    width: 100%;
+}
+
+
+.PartOne {
+    background-color: #90d1cd;
+    height: 35px;
+    width: 100%;
+    display: flex;
+}
+.PartOne div.PartOne_left{
+    margin-top: 7px;
+}
+.PartOne div.PartOne_left a {
+    margin-left: 70px;
+    color: #000000;
+    font-size: 11px;
+    font-weight: bold;
+    vertical-align: middle;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.PartOne div.PartOne_Right{
+    margin-top: 7px;
+}
+
+.PartOne div.PartOne_Right a {
+    margin-left: 300px;
+    color: #17324f;
+    font-size: 13px;
+    vertical-align: middle;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.PartTwo {
+    background-color: #ffffff;
+    height: 60px;
+    width: 100%;
+    display: flex;
+}
+
+i.fa.fa-star {
+    color: red;
+}
+i.fa.fa-user {
+    color: blue;
+}
+.icon {
+    display: flex;
+    margin-top: 15px;
+}
+
+
+.PartTwo div.PartTwo_left {
+    display: flex;
+}
+
+.PartTwo div.PartTwo_left a img {
+    margin-left: 65px;
+    margin-top: 20px;
+    height: 35px;
+}
+
+.PartTwo div.PartTwo_right ul {
+    display: flex;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+
+.PartTwo div.PartTwo_right ul li {
+    margin-left: 25px;
+}
+
+.PartTwo div.PartTwo_right ul li div.search {
+    width: 145px;
+    height: 25px;
+    position: relative;
+}
+
+.PartTwo div.PartTwo_right ul li div.search input {
+    width: 235px;
+    height: 25px;
+    background-color: #ececea;
+    border: 1px solid black;
+    font-size: 12px;
+    color: black;
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.PartTwo div.PartTwo_right ul li div.search span {
+    background-color: white;
+    position: absolute;
+    top: 5px;
+    left: 132px;
+    margin-left: 100px;
+    width: 0px;
+}
+
+.PartTwo div.PartTwo_right ul li a.icon1 {
+    margin-left: 100px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.PartTwo div.PartTwo_right ul li a.icon2 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+
+.PartThere {
+    background-color: #000000;
+    width: 100%;
+    display: flex;
+    height: 45px;
+}
+
+.PartThere ul.leve2 {
+    margin-left: 40px;
+}
+.PartThere ul.leve2 li{
+    position: absolute;
+}
+.PartThere ul.leve2 li a.red {
+    line-height: 50px;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    margin-left: 20px;
+    
+}
+
+.PartThere ul.leve2 li a.red:hover {
+    color: black;
+    background-color: white;
+    padding: 16px 16px;
+    transition: all 0.25s;
+}
+
+.PartThere ul.leve2 {
+    display: flex;
+    margin-top: -2px;
+}
+
+.PartThere ul.leve2 li a.red1 {
+    margin-left: 30px;
+    line-height: 48px;
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    padding: 16px;
+}
+
+.PartThere ul.leve2 li:hover a.red1 {
+    color: black;
+    background-color: white;
+}
+
+.PartThere ul.leve2 li {
+    position: relative;
+}
+
+.PartThere ul.leve2 li ul {
+    display: none;
+    position: absolute;
+    top: 47.5px;
+    width: 180px;
+    list-style: none;
+    z-index: 100;
+    background-color: #fce8ea;
+    margin-left: 20px;
+}
+
+.PartThere ul.leve2 li ul.menu_red {
+    display: none;
+    position: absolute;
+    top: 47.5px;
+    width: 180px;
+    list-style: none;
+    z-index: 100;
+    background-color: #fce8ea;
+    margin-left: 40px;
+    left: -10px;
+}
+
+.PartThere ul.leve2>li:hover ul {
+    display: inherit;
+}
+
+.PartThere ul.leve2 li ul li a {
+    padding: 10px 10px;
+    display: inline-block;
+    width: 200px;
+    border-bottom: 1px solid black;
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    margin-left: -40px;
+}
+
+.PartThere ul.leve2 li ul li:hover a {
+    color: white;
+    background-color: #fe9f8d;
+}
+
+.PartThere ul.leve2 li ul li ul li {
+    left: -20px;
+}
+
+.PartThere ul.leve2 li ul li ul.Menu3cap2 li {
+    display: none;
+}
+
+.PartThere ul.leve2 li ul li ul.Menu3cap1 {
+    width: 150px;
+}
+
+.PartThere ul.leve2 li ul li ul.Menu3cap1 li {
+    display: none;
+}
+
+
+ul.leve2 li ul>li:hover ul.Menu3cap2 li {
+    display: inherit;
+}
+
+.PartThere ul.leve2 li ul li ul.Menu3cap2 {
+    width: 150px;
+}
+ul.leve2 li ul>li:hover ul.Menu3cap1 li {
+    display: inherit;
+}
+
+.PartThere ul.leve2 li ul li ul {
+    position: absolute;
+    left: 180px;
+    top: 0px;
+}
+
+.PartThere ul.leve2 li ul li ul.Menu3cap1 li a {
+    background-color: #fce8ea;
+    color: black;
+}
+
+.PartThere ul.leve2 li ul li ul.Menu3cap2 li a {
+    background-color: #fce8ea;
+    color: black;
+}
+
+.PartThere ul.leve2 li ul li ul.Menu3cap1 li:hover a {
+    color: white;
+    background-color: #fe9f8d;
+}
+
+.PartThere ul.leve2 li ul li ul.Menu3cap2 li:hover a {
+    color: white;
+    background-color: #fe9f8d;
+}
+
+i.fa.fa-search {
+    margin-top: -15px;
+}
+
+.body {
+    height: 800px;
+    padding-top: 150px;
+}
+
+.body01 {
+    height: 15%;
+    width: 90%;
+    margin-left: 60px;
+    display: flex;
+}
+
+.Thehr {
+    width: 90%;
+    margin-left: 60px;
+    background-color: black;
+}
+
+.body01 .body01_Left {
+    width: 14%;
+    height: 100%;
+}
+
+.body01 .body01_Left a p {
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.body01_Right {
+    margin-right: 50px;
+}
+
+.body01_Right p {
+    margin-left: 350px;
+    font-size: 22px;
+    margin-top: 40px;
+}
+
+.body01_Right ul {
+    display: flex;
+}
+
+.body01_Right ul li {
+    margin-left: 14px;
+}
+
+.body01_Right ul li:hover {
+    background-color: black;
+    color: white;
+}
+
+.body02 {
+    background-color: #f5f5f5;
+    height: 30%;
+    width: 90%;
+    margin-left: 60px;
+    display: flex;
+}
+
+.body02 .body02_Left {
+    width: 70%;
+    height: 90%;
+    margin-left: 30px;
+}
+
+
+
+.body02_Right {
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.body02_Left p {
+    margin-top: -7px;
+    font-size: 13px;
+}
+
+.Duoi ul li .inputEmail {
+    margin-left: 100px;
+    width: 200px;
+}
+
+.body02 .body02_Left .Duoi {
+    margin-left: -40px;
+}
+
+.Duoi ul {
+    padding-top: 20px;
+}
+
+.Duoi ul li .inputpass {
+    margin-left: 78px;
+    width: 200px;
+}
+
+.button01 {
+    background-color: black;
+    color: white;
+    width: 180px;
+    height: 35px;
+    border: 1px solid black;
+}
+
+.button01:hover {
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+}
+
+.button01 p {
+    font-size: 13px;
+    margin-top: 7px;
+}
+
+.button02 {
+    background-color: #4267b2;
+    color: white;
+    width: 180px;
+    height: 35px;
+    border: 1px solid #4267b2;
+}
+
+.button02 p {
+    font-size: 13px;
+    margin-top: 7px;
+}
+
+.body03 {
+    background-color: #f5f5f5;
+    height: 20%;
+    width: 90%;
+    margin-left: 60px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.body03_Left {
+    width: 70%;
+    margin-left: 30px;
+}
+
+.button03 {
+    background-color: black;
+    color: white;
+    width: 180px;
+    height: 35px;
+    margin-left: 40px;
+    margin-top: 40px;
+    border: 1px solid black;
+}
+
+.button03 p {
+    font-size: 13px;
+    margin-top: 7px;
+}
+
+.button03:hover {
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+}
+
+.body04 {
+    margin-top: 20px;
+    background-color: #f5f5f5;
+    height: 20%;
+    width: 90%;
+    margin-left: 60px;
+    display: flex;
+}
+
+.body04_Right {
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.body04 .body04_Left {
+    width: 70%;
+    margin-left: 30px;
+}
+
+.end01 {
+    background-color: gainsboro;
+    display: flex;
+    height: 250px;
+}
+
+.end01_one {
+    width: 25%;
+}
+
+.PartChung ul {
+    display: flex;
+    margin-left: -15px;
+    margin-top: 15px;
+}
+.PartChung ul li {
+    margin-top: 10px;
+}
+.PartChung ul li hr {
+    width: 250px;
+}
+
+.end01_two {
+    width: 25%;
+}
+
+.end01_three {
+    width: 25%;
+}
+
+.end01_for {
+    width: 25%;
+}
+
+i.fa.fa-cc-visa {
+    color: red;
+}
+
+i.fa.fa-plane {
+    color: #4267b2;
+}
+
+i.fa.fa-clock-o {
+    color: sandybrown;
+}
+
+i.fa.fa-headphones {
+    color: brown;
+}
+.end02 {
+    height: 250px;
+    display: flex;
+}
+
+.Left1 {
+    background-color: #f2f2f2;
+    width: 30%;
+}
+
+.Left1 ul {
+    margin-right: 10px;
+}
+
+.Left1 ul li h4 {
+    margin-top: 35px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.Left1 ul li{
+    margin-top: 10px;
+}
+
+.Left1 ul li a {
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.Left1 ul li a:hover {
+    background-color: black;
+    color: white;
+}
+
+.Left2 {
+    background-color: #f2f2f2;
+    width: 35%;
+}
+
+.Left2 ul {
+    margin-right: 10px;
+}
+.Left2 ul li{
+    margin-top: 10px;
+}
+.Left2 ul li h4 {
+    margin-top: 35px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.Left2 ul li a {
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+.Left2 ul li a:hover {
+    background-color: black;
+    color: white;
+}
+
+.Right {
+    background-color: #f2f2f2;
+    width: 40%;
+}
+
+.Right h4 {
+    margin-top: 35px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.fa.fa-comments-o {
+    font-size: 40px;
+    margin-left: 150px;
+    color: #4397f5;
+}
+
+
+.Right h5 {
+    font-size: 13px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Right img {
+    height: 35px;
+    width: 100px;
+    margin-top: 20px;
+}
+
+i.fa.fa-facebook {
+    font-size: 21px;
+    background: white;
+    width: 20px;
+    text-align: center;
+    color: #4397f5;
+    margin-right: 50px;
+}
+
+i.fa.fa-youtube {
+    font-size: 21px;
+    background: white;
+    width: 20px;
+    text-align: center;
+    color: red;
+    margin-right: 50px;
+}
+
+i.fa.fa-twitter {
+    font-size: 21px;
+    background: white;
+    width: 20px;
+    text-align: center;
+    color: #4397f5;
+}
+
+.Email {
+    display: flex;
+}
+
+.Email input {
+    width: 290px;
+    margin-top: 5px;
+    height: 28px;
+}
+
+.button1 {
+    width: 130px;
+    margin-top: 5px;
+    height: 34px;
+    font-size: 13px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+.button1:hover {
+    background-color: red;
+    border: 1px solid red;
+}
